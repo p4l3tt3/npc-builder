@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+}
+.watch-amadon-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #567f92;
+  background: linear-gradient(to right, #7db4ce, #4c6f80);
+  justify-content: center;
+  align-items: center;
+}
