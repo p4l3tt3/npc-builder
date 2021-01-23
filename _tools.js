@@ -1,4 +1,6 @@
 module.exports = {
+  // has to be imported in configuration.js:
+  // const { buildBinFile } = require('../../_tools.js');
   buildBinFile(type, level, options = {}) {
     const mergedOptions = {
       // Defaults
@@ -11,6 +13,8 @@ module.exports = {
     }
     return JSON.stringify(mergedOptions);
   },
+  // has to be imported in configuration.js:
+  // const { buildPdfFile } = require('../../_tools.js');
   buildPdfFile(title, text, options = {}) {
     const mergedOptions = {
        // Defaults
